@@ -55,6 +55,7 @@ perform_scoring(predict_xgbr,y_test)
 - Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
+![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
 
 ```
 test_predictions = model1.predict(X_test1).flatten()
@@ -62,7 +63,7 @@ test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals'
 plt.plot(test_results['Test Predictions'][0:100])
 plt.plot(test_results['Actuals'][0:100])
 ```
-![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
+![predicted vs actuals](https://user-images.githubusercontent.com/89590898/170887927-2884c750-1d78-43b2-b711-d74ec5191607.png)
 
 
 # [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
