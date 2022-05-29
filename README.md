@@ -1,5 +1,7 @@
 # Praharshita Kaithepalli
-[Linkedin Profile](https://www.linkedin.com/in/kspraharshita/)
+[My Linkedin Profile](https://www.linkedin.com/in/kspraharshita/)
+
+
 Hello recruiter!  
 
 I am a data science Masters student at Rochester Institute of Technology, I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
