@@ -1,7 +1,8 @@
-# Praharshita-Portfolio
-All the projects in one place
+# H1 Praharshita Kaithepalli
+Hello recruiter! 
+I am a data science Masters student at Rochester Institute of Technology, I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
 
-# [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
+# H2 [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
 
 - Created a project to predict the prices of AirBNB listings based off on various factors.
 - Cleaned a data set with over 30,000 rows to make it available for training.
