@@ -1,5 +1,6 @@
 # Praharshita Kaithepalli
-Hello recruiter! 
+Hello recruiter!  
+
 I am a data science Masters student at Rochester Institute of Technology, I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
 
 # [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
