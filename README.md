@@ -1,4 +1,3 @@
-# Praharshita Kaithepalli
 [My Linkedin Profile](https://www.linkedin.com/in/kspraharshita/)
 
 
