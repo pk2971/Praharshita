@@ -97,3 +97,7 @@ array([[0.99022114, 0.00555698, 0.00422185]], dtype=float32)
 - Tableau used to further visualize the sentiment scores of the tweets for different products in a particular year.
 - Simplified the findings to report it to a non-technical person
 
+# Other skills and softwares
+- Programming Languages: Java, R, C, mySQL, SQL
+- Softwares: Tableau, MS Excel, MS Access, JMP statistical software, Minitab
+
