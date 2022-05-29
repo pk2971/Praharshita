@@ -55,6 +55,7 @@ perform_scoring(predict_xgbr,y_test)
 - Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
+
 ![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
 
 ```
