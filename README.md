@@ -14,6 +14,20 @@ I am a data science Masters student at Rochester Institute of Technology, I enjo
 - MSE, RMSE and R^2 obtained to study the prediction accuracy for each algorithm
 - Hyperparameter tuning performed on the best performing algorithm(XGBoost) to obtain better prediction scores.
 
+print("\nMAE:", round(mean_absolute_error(predict_xgbr,y_test)))
+print("\nMSE:", round(mean_squared_error(y_test,predict_xgbr),4))
+print("\nRMSE:", round(math.sqrt(mean_squared_error(y_test, predict_xgbr)),4))
+print("\nR^2:", round(r2_score(y_test,predict_xgbr),4))
+MAE: 31
+
+MSE: 1891.7184
+
+RMSE: 43.4939
+
+R^2: 0.6427
+perform_scoring(predict_xgbr,y_test)
+68.58646396725625
+
 # [Temperature Prediction using Air Quality, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
 - Built a time series forcasting model to predict the atmospheric temperature at a given time of the day.
