@@ -56,6 +56,15 @@ perform_scoring(predict_xgbr,y_test)
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
 
+```
+test_predictions = model1.predict(X_test1).flatten()
+test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
+plt.plot(test_results['Test Predictions'][0:100])
+plt.plot(test_results['Actuals'][0:100])
+```
+![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
+
+
 # [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
 
 - Built a classifier to identify if a lung is effected by COVID-19 based on scan images.
