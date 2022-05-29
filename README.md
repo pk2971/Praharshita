@@ -19,8 +19,10 @@ All the projects in one place
 # [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
 
 - Built a classifier to identify if a lung is effected by COVID-19 based on scan images.
-- Predicted if the lung is effected by COVID-19 with 99% accuracy(from a new image).
+- Used an ImageGenerator to scale images so that they can be efficiently used by the model.
 - Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
+- Predicted if the lung is effected by COVID-19 with 99% accuracy(from a new image).
+
 
 # [Twitter Sentiment Mining-R language](https://github.com/pk2971/Twitter-setiment-mining)
 - Extracted 2000 tweets from Twitter website about Fenty Beauty cosmetic company and stored them in data frames.
