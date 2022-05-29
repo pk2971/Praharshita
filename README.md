@@ -74,7 +74,18 @@ plt.plot(test_results['Actuals'][0:100])
 - Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
 - Predicted if the lung is effected by COVID-19 with 99% accuracy(from a new image).
 
-
+![LungNormal](https://user-images.githubusercontent.com/89590898/170888118-a070a0e0-d5a9-40e6-9c83-36558415513a.jpeg)
+```
+import cv2
+img=cv2.imread('/content/ChestCOVID19.jpg')
+plt.imshow(img)
+resize=tf.image.resize(img,(150,150))
+plt.imshow(resize.numpy().astype(int))
+yhat=model.predict(np.expand_dims(resize/255,0))
+yhat
+array([[0.99022114, 0.00555698, 0.00422185]], dtype=float32)
+#Predicted with 99% probability that the lung is effected by Covid-19
+```
 # [Twitter Sentiment Mining-R language](https://github.com/pk2971/Twitter-setiment-mining)
 - Extracted 2000 tweets from Twitter website about Fenty Beauty cosmetic company and stored them in data frames.
 - Cleaned the tweet text data from mentions, emojis, profanities and various other symbols.
