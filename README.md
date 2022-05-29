@@ -12,6 +12,7 @@ I am a data science Masters student at Rochester Institute of Technology, I enjo
 - Used various algorithms such as LinearRegressor, RandomForestRegressor, GradientBoostRegressor, XGBRegressor etc. to obtain the best performing model.
 - MSE, RMSE and R^2 obtained to study the prediction accuracy for each algorithm
 - Hyperparameter tuning using BayesianOptimizer performed on the best performing algorithm(XGBoost) to obtain better prediction scores.
+
 ```
 #Before Hyper parameter tuning
 print("\nMAE:", round(mean_absolute_error(predict_xgbr,y_test)))
