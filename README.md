@@ -12,8 +12,8 @@ I am a data science Masters student at Rochester Institute of Technology, I enjo
 - Cleaned a data set with over 30,000 rows to make it available for training.
 - Used various algorithms such as LinearRegressor, RandomForestRegressor, GradientBoostRegressor, XGBRegressor etc. to obtain the best performing model.
 - MSE, RMSE and R^2 obtained to study the prediction accuracy for each algorithm
-- Hyperparameter tuning performed on the best performing algorithm(XGBoost) to obtain better prediction scores.
-
+- Hyperparameter tuning using BayesianOptimizer performed on the best performing algorithm(XGBoost) to obtain better prediction scores.
+```
 print("\nMAE:", round(mean_absolute_error(predict_xgbr,y_test)))
 print("\nMSE:", round(mean_squared_error(y_test,predict_xgbr),4))
 print("\nRMSE:", round(math.sqrt(mean_squared_error(y_test, predict_xgbr)),4))
@@ -25,8 +25,11 @@ MSE: 1891.7184
 RMSE: 43.4939
 
 R^2: 0.6427
+
 perform_scoring(predict_xgbr,y_test)
+
 68.58646396725625
+```
 
 # [Temperature Prediction using Air Quality, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
