@@ -5,7 +5,7 @@
 
 Hello recruiter!  
 
-I am a data science Masters student at Rochester Institute of Technology, I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
+I am a Data science, Masters student at Rochester Institute of Technology. I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
 
 # [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
 
@@ -51,7 +51,7 @@ perform_scoring(predict_xgbr,y_test)
 71.15918725332554
 ```
 
-# [Temperature Prediction using Air Quality, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
+# [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
 - Built a time series forcasting model to predict the atmospheric temperature at a given time of the day.
 - Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
@@ -88,7 +88,7 @@ yhat
 array([[0.99022114, 0.00555698, 0.00422185]], dtype=float32)
 #Predicted with 99% probability that the lung is effected by Covid-19
 ```
-# [Twitter Sentiment Mining-R language](https://github.com/pk2971/Twitter-setiment-mining)
+# [Twitter Sentiment Mining using afinn and syuzhet-R language](https://github.com/pk2971/Twitter-setiment-mining)
 - Extracted 2000 tweets from Twitter website about Fenty Beauty cosmetic company and stored them in data frames.
 - Cleaned the tweet text data from mentions, emojis, profanities and various other symbols.
 - Removed data in the tweeets not relating to the cosmetic company.
