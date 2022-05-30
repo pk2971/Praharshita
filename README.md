@@ -5,7 +5,7 @@
 
 Hello recruiter!  
 
-I am a Data science, Masters student at Rochester Institute of Technology. I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of my projects I've worked on. 
+I am a Data science, Masters student at Rochester Institute of Technology. I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of the projects that I've worked on. 
 
 # [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
 
@@ -53,7 +53,7 @@ perform_scoring(predict_xgbr,y_test)
 
 # [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
 
-- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day.
+- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day based off on the pollutant concentrations in the atmosphere.
 - Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
 - Trained the data set on Conv1D and LSTM models and achieved high accuracy.
 - Graphed the predicted vs. actual values of both data sets.
@@ -95,9 +95,9 @@ array([[0.99022114, 0.00555698, 0.00422185]], dtype=float32)
 - Created wordclouds of different products to see what is being talked about the most.
 - Performed setiment analysis and assigned sentiment score to tweets using afinn and syuzhet packages.
 - Tableau used to further visualize the sentiment scores of the tweets for different products in a particular year.
-- Simplified the findings to report it to a non-technical person
+- Simplified the findings to report it to a non-technical person.
 
 # Other skills and softwares
-- Programming Languages: Java, R, C, mySQL, SQL
-- Softwares: Tableau, MS Excel, MS Access, JMP statistical software, Minitab
+- Programming Languages: Java, R, C, mySQL, SQL.
+- Softwares: Tableau, MS Excel, MS Access, JMP statistical software, Minitab.
 
