@@ -74,7 +74,7 @@ plt.plot(test_results['Actuals'][0:100])
 - Built a classifier to identify if a lung is effected by COVID-19 based on scan images.
 - Used an ImageGenerator to scale images so that they can be efficiently used by the model.
 - Used transfer learning on a CNN trained VGG16, which created time efficient and solid results.
-- Predicted if the lung is effected by COVID-19 with 99% accuracy(from a new image).
+- Predicted if the lung is effected by COVID-19 with 99% accuracy (from a new image).
 
 ![LungNormal](https://user-images.githubusercontent.com/89590898/170888118-a070a0e0-d5a9-40e6-9c83-36558415513a.jpeg)
 ```
