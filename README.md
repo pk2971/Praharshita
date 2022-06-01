@@ -1,6 +1,6 @@
 [My Linkedin Profile](https://www.linkedin.com/in/kspraharshita/)
 
-[Download my Resume here](https://github.com/pk2971/Praharshita/files/8806013/Resume-.Praharshita.Kaithepalli.pdf)
+[Download my Resume here](https://github.com/pk2971/Praharshita/files/8816035/Resume-.Praharshita.Kaithepalli.pdf)
 
 
 Hello recruiter!  
