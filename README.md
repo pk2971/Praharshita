@@ -7,6 +7,23 @@ Hello recruiter!
 
 I am a Data science, Masters student at Rochester Institute of Technology. I enjoy working with challenging and real-world datasets to derive meaningful insights and business-oriented solutions. I am looking for Summer/Fall 22' internships. These are some of the projects that I've worked on. 
 
+# [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
+
+- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day based off on the pollutant concentrations in the atmosphere.
+- Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
+- Trained the data set on Conv1D and LSTM models and achieved high accuracy.
+- Graphed the predicted vs. actual values of both data sets.
+
+![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
+
+```
+test_predictions = model1.predict(X_test1).flatten()
+test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
+plt.plot(test_results['Test Predictions'][0:100])
+plt.plot(test_results['Actuals'][0:100])
+```
+![predicted vs actuals](https://user-images.githubusercontent.com/89590898/170887927-2884c750-1d78-43b2-b711-d74ec5191607.png)
+
 # [Predicting AirBNB Prices using Regression Models-Python](https://github.com/pk2971/AirBNB-pricing-prediction-analysis/blob/main/AirBNB_pricing_prediction_analysis_Praharshita_Kaithepalli.ipynb)
 
 - Created a project to predict the prices of AirBNB listings based off on various factors.
@@ -50,24 +67,6 @@ perform_scoring(predict_xgbr,y_test)
 
 71.15918725332554
 ```
-
-# [Temperature Prediction using Air Quality using LSTM and Conv1D, Multivariate Time Series Forecasting-Python](https://github.com/pk2971/Air-Quality-vs-Temperature-time-series)
-
-- Built a time series forcasting model to predict the atmospheric temperature at a given time of the day based off on the pollutant concentrations in the atmosphere.
-- Cleaned a data set of 9000+ rows and prepared it to enable time series forecasting.
-- Trained the data set on Conv1D and LSTM models and achieved high accuracy.
-- Graphed the predicted vs. actual values of both data sets.
-
-![timeseries](https://user-images.githubusercontent.com/89590898/170887795-d4900680-bbdf-4c9b-978f-471c0180e3c1.png)
-
-```
-test_predictions = model1.predict(X_test1).flatten()
-test_results = pd.DataFrame(data={'Test Predictions':test_predictions, 'Actuals':y_test1})
-plt.plot(test_results['Test Predictions'][0:100])
-plt.plot(test_results['Actuals'][0:100])
-```
-![predicted vs actuals](https://user-images.githubusercontent.com/89590898/170887927-2884c750-1d78-43b2-b711-d74ec5191607.png)
-
 
 # [COVID-19 Image Classifier using VGG16-Python](https://github.com/pk2971/COVID-19-Image-Classification)
 
